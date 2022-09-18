@@ -3842,7 +3842,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					<i class="menu-bullet menu-bullet-line">
 																						<span></span>
 																					</i>
-																					<span class="menu-text">Error 2</span>
+																					<span class="menu-text">  2</span>
 																				</a>
 																			</li>
 																			<li class="menu-item" aria-haspopup="true">
