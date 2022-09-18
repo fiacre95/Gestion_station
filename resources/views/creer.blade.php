@@ -37,7 +37,7 @@
                                     
                                     @csrf
 									<div class="form-group py-3 m-0">
-                                        <label for="exampleSelect2">Example multiple select <span class="text-danger">*</span></label>
+                                        <label for="exampleSelect2">Cathegories <span class="text-danger">*</span></label>
                                         <select multiple="" class="form-control" id="exampleSelect2" name="cathegory">
                                         <option>Gasoil </option>
                                         <option>Essence</option>

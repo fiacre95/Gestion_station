@@ -3988,7 +3988,7 @@ License: You must have a valid license purchased only from themeforest(the above
 														<!-- end: Pricing-->
 														<!-- begin: Pricing-->
 														<div class="col-md-4 border-x-0 border-x-md border-y border-y-md-0">
-                                                        <a href="{{route ('station.index') }}" class="card card-custom bg-info bg-hover-state-danger card-stretch gutter-b">
+                                                        <a href="{{route ('station.stats') }}" class="card card-custom bg-info bg-hover-state-danger card-stretch gutter-b">
 															<div class="pt-30 pt-md-25 pb-15 px-5 text-center bg-dark">
 																<!--begin::Icon-->
 																<div class="d-flex flex-center position-relative mb-25">
@@ -4010,7 +4010,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</div>
 																<!--end::Icon-->
 																<!--begin::Content-->
-																<h4 class="font-size-h3 mb-10"> Nombres d'enregistrement </h4>
+																<h4 class="font-size-h3 mb-10"> Statistiques </h4>
 																
 																<!--end::Content-->
 															</div>
@@ -4045,7 +4045,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</div>
 																<!--end::Icon-->
 																<!--begin::Content-->
-																<h4 class="font-size-h3 mb-10">Administrateur</h4>
+																<h4 class="font-size-h3 mb-10">Liste des Enregistrements</h4>
 																
 																<!--end::Content-->
 															</div>

@@ -19,7 +19,7 @@
         <div class="md-form my-0">    
             <input class="form-control" type="date" value="{{ now()->toDateString('Y-m-d') }}" id="example-date-input" name="date1"/>
             <input class="form-control" type="date" value="{{ now()->toDateString('Y-m-d') }}" id="example-date-input" name="date2"/>   
-            <button type="submit" class="btn btn-success">Primary</button>
+            <button type="submit" class="btn btn-success">Rechercher</button>
         </div>
 
         
@@ -78,7 +78,7 @@
                 <!--end::Card-->
             </div>
         </div>
-        Carte Titre de la carte pleine hauteu
+        
 </div>
 
 @endsection

@@ -18,7 +18,7 @@
         </div>
     </form>
     
-    <a href="{{route ('station.creer') }}" class="btn btn-primary mr-0 float-right mb-3"><i class="fas fa-plus"> </i> Ajouter Etudiant </a>
+    <a href="{{route ('station.creer') }}" class="btn btn-primary mr-0 float-right mb-3"><i class="fas fa-plus"> </i> Nouvelle Enregistrement </a>
 </div>
 
 <div class="col md-12 mb-10">
@@ -26,7 +26,7 @@
         <div class="md-form my-0">    
             <input class="form-control" type="date" value="{{ now()->toDateString('Y-m-d') }}" id="example-date-input" name="date1"/>
             <input class="form-control" type="date" value="{{ now()->toDateString('Y-m-d') }}" id="example-date-input" name="date2"/>
-            <button type="submit" class="btn btn-success">Primary</button>
+            <button type="submit" class="btn btn-success">Rechercher</button>
         </div>
     </form>
     
@@ -43,7 +43,7 @@
                 <th scope="col">Cathegorie </th>
                 <th scope="col">Date </th>
                 <th scope="col">Modifier </th>
-                <th scope="col">Details </th>
+                <th scope="col">Imprimer </th>
                 <th scope="col">Supprimer </th>
             </tr>
         </thead>
@@ -60,7 +60,7 @@
                         <a href="{{ route ('station.edite', $achat) }}" class="btn btn-light-warning font-weight-bold mr-2">Modifier</a>
                 </td>
                 <td>
-                        <a href="{{ route ('station.details', $achat) }}" class="btn btn-light-info font-weight-bold mr-2">Details</a>
+                        <a href="{{ route ('station.details', $achat) }}" class="btn btn-light-info font-weight-bold mr-2">Imprimer</a>
                 </td>
                 <td>
                         <a href="{{ route ('station.delete', $achat) }}" class="btn btn-light-danger font-weight-bold mr-2" onclik="if(confirm('voulez vous vraiment le supprimer')){document.getElementById('form-{{ $achat->id }}')}">Supprimer</a>
